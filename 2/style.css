@@ -1,0 +1,25 @@
+img {
+	border: solid 1px #FF00FF;
+	outline: solid 1px #FF00FF;
+	outline-offset: 2px;
+	width: 300px;
+}
+
+.span {
+		text-align: center;
+		color:  #000080;
+}
+
+span{
+	text-decoration: underline;
+}
+
+ol {
+    text-align: left;
+    font-size: 115%;
+    color: DarkGreen;
+}
+
+footer {
+	text-align: center;
+}
