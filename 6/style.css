@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ body {
+  font:16px/1 sans-serif
+}
+ nav.vertical {
+	position: relative;
+	width: 200px;
+} 
+nav.vertical ul {
+	list-style: none;
+}
+nav.vertical li {
+	position: relative;
+}
+nav.vertical a{
+  display:block;
+  color:#dbdddc;
+  text-decoration:none;
+  padding:10px 15px;
+  background:#ff7e10;
+  transition:0.2s;
+}
+nav.vertical li:hover > a{
+  background:#685b86;
+}
+nav.vertical ul ul{
+  position:absolute;
+  left:0%;
+  top:0;
+  width:100%;
+  visibility:hidden;
+  opacity:0;
+  transition: transform 0.2s;
+  transform: translateX(50px);
+}
+nav.vertical li:hover > ul{
+  left:100%;
+  visibility:visible;
+  opacity:1;
+  transform: translateX(0px);
+}
+.wrapper_lorem {
+  margin-left: 25%;
+  padding-top: 100px;
+  width: 500px;
+  text-align: center;
+  font-size: 25px;
+}
+p a.Yakor {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  /*Передумал*/
+  /* background: #ff7e10; */
+  /*color: #685b86;*/
+}
+/* p a:hover {
+  background: #bef574;
+  text-decoration: none;
+} */
+/* p a:active {
+  background: #C0C0C0;
+  text-decoration: none;
+} */
+
+/* p a:before  {
+  content: "Едем вверх!";
+  background: #C0C0C0;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  color: black;
+} */
